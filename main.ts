@@ -3,12 +3,12 @@ Write a function called make_great() that modifies the array of magicians
 by adding the phrase the Great to each magician’s name. 
 Call show_magicians() to see that the list has actually been modified.*/
 
-
-function make_great(magicians: string[]) {
-    for (let i = 0; i < magicians.length; i++) {
-        magicians[i] = magicians[i] + " the Great";
-    }
+let magician_array:string[] = ["Magician_1", "Magician_2", "Magician_3"]
+    function make_great(arr:string[]) {
+for (let i=0; i<arr.length; i++){
+magician_array[i] = "The Great + arr{i}"
 }
+}
+   'make_great{magician_array}'
 
-make_great(magicians); // Modifies the original array
-show_magicians(magicians); // Shows modified names
+console.log(magician_array);
